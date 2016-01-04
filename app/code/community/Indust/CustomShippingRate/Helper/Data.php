@@ -42,6 +42,10 @@ class Indust_CustomShippingRate_Helper_Data extends Mage_Core_Helper_Abstract
             return true;
         } else if ($i[1] == 5) { // Check for Magento 1.5.x.x
             return true;
+        } else if ($i[1] == 9) { // Check for Magento 1.9.x.x
+            return true;
+        } else if ($i[1] == 8) { // Check for Magento 1.8.x.x
+            return true;
         } else {
             return false;
         }
